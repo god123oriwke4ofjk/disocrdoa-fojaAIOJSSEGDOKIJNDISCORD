@@ -27,7 +27,7 @@ async def on_message(message):
         await message.channel.send(response)
 
 def run_discord_bot():
-    TOKEN = 'MTIyNzU3NDk0NjM0ODQwMDc3Mg.G2_Pth.-gVXjxQZVnbZVAFVXeW7Dkg7a41UOBhCjjHm3k'
+    TOKEN = ''
     bot.run(TOKEN)
 
 if __name__ == "__main__":
